@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ```bash
 cp .env.example .env
-# Edit .env and add your OpenAI API key
+# Edit .env and add your Gemini API key
 ```
 
 ### 5. Run the app
@@ -91,7 +91,7 @@ streamlit run app.py
 3. Click **🔍 Analyze Script**
 4. Review the structured analysis across all sections
 
-You can also enter your OpenAI API key directly in the sidebar instead of using a `.env` file.
+You can also enter your Gemini API key directly in the sidebar instead of using a `.env` file.
 
 ---
 
@@ -100,7 +100,7 @@ You can also enter your OpenAI API key directly in the sidebar instead of using 
 ### LangChain Chain
 
 ```
-ChatPromptTemplate  →  ChatOpenAI (GPT-4o)  →  StrOutputParser  →  JSON Parser  →  Pydantic Model
+ChatPromptTemplate  →  Gemini (Gemini-2.5-Flash)  →  StrOutputParser  →  JSON Parser  →  Pydantic Model
 ```
 
 ### Prompt Engineering Strategy
